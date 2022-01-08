@@ -6,6 +6,10 @@ export default class pessoa {
     this.nome = nome;
     this.idade = idade;
   }
+  Pessoa() : void {
+    console.log(`Nome..: ${this.nome}\nIdade.: ${this.idade}` );
+    console.log('------------------------');
+  }
 }
 
 export { pessoa };

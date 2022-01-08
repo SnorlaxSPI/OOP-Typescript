@@ -7,14 +7,17 @@ export default class animal {
     this.tipo = t;
     this.nome = n;
     this.idade = i;
-  }
+  } 
 }
 
 class gente extends animal {
-  cor: string
+  etnia: string
   constructor(t: string, n: string, i: number, c: string) {
     super(t, n , i);
-    this.cor = c;
+    this.etnia = c;
+  }
+  Gente(): void {
+    console.log(`Nome..: ${this.nome}\nTipo..: ${this.tipo}\nIdade.: ${this.idade}\nEtnia.: ${this.etnia}`);
   }
 }
 
@@ -24,6 +27,10 @@ class cachorro extends animal {
     super(t, n, i);
     this.raca = r;
   }
-}
+  Cachorro(): void {
+      console.log(`Nome..: ${this.nome}\nTipo..: ${this.tipo}\nIdade.: ${this.idade}\nRaça..: ${this.raca}`);
+      console.log('------------------------');
+    }
+  }
 
 export { animal, cachorro, gente };
