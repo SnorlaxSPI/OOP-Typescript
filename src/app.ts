@@ -54,5 +54,8 @@ if (!itsOk) {
   console.log(`Saldo Atual: ${saldoAtual}`);
 }
 
+cb.numero = '01234-5';
+cb.agencia = '123-5'
+console.log(cb);
 
 
