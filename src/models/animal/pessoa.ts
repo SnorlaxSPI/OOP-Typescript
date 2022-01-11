@@ -1,4 +1,4 @@
-export default class pessoa {
+export class pessoa {
   nome: string;
   idade: number;
 
@@ -8,8 +8,6 @@ export default class pessoa {
   }
   Pessoa() : void {
     console.log(`Nome..: ${this.nome}\nIdade.: ${this.idade}` );
-    console.log('------------------------');
+    console.log('-------------------');
   }
 }
-
-export { pessoa };

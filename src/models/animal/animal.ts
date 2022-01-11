@@ -18,6 +18,7 @@ class gente extends animal {
   }
   Gente(): void {
     console.log(`Nome..: ${this.nome}\nTipo..: ${this.tipo}\nIdade.: ${this.idade}\nEtnia.: ${this.etnia}`);
+    console.log('-------------------');
   }
 }
 
@@ -29,7 +30,7 @@ class cachorro extends animal {
   }
   Cachorro(): void {
       console.log(`Nome..: ${this.nome}\nTipo..: ${this.tipo}\nIdade.: ${this.idade}\nRaça..: ${this.raca}`);
-      console.log('------------------------');
+      console.log('-------------------');
     }
   }
 
